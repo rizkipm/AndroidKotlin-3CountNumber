@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidKotlin#3CountNumber</string>
+    <string name="hello_world_text">0</string>
+
 </resources>
