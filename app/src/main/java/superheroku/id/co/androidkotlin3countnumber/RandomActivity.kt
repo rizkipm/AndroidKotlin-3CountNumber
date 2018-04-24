@@ -7,9 +7,14 @@ import java.util.*
 
 class RandomActivity : AppCompatActivity() {
 
+    companion object {
+        const val TOTAL_COUNT = "total_count"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_random)
+        showRandomNumber()
     }
 
     fun showRandomNumber() {
